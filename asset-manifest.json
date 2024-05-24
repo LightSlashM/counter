@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LightSlashM/counter/static/css/main.b1ce55fa.css",
+    "main.js": "/LightSlashM/counter/static/js/main.919743cd.js",
+    "static/js/453.0f10a1a4.chunk.js": "/LightSlashM/counter/static/js/453.0f10a1a4.chunk.js",
+    "index.html": "/LightSlashM/counter/index.html",
+    "main.b1ce55fa.css.map": "/LightSlashM/counter/static/css/main.b1ce55fa.css.map",
+    "main.919743cd.js.map": "/LightSlashM/counter/static/js/main.919743cd.js.map",
+    "453.0f10a1a4.chunk.js.map": "/LightSlashM/counter/static/js/453.0f10a1a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1ce55fa.css",
+    "static/js/main.919743cd.js"
+  ]
+}
