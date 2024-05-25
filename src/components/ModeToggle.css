@@ -2,7 +2,16 @@
 .mode-toggle {
     display: flex;
     align-items: center;
-    /* Additional styling */
+
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7em;
+    margin-top: 20px
 }
 
 .toggle-label {

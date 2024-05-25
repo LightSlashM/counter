@@ -1,5 +1,6 @@
 ﻿// Filename: Utility.js
 const numberWords = {
+    'zero' :0,
     'one': 1,
     'two': 2,
     'three': 3,
@@ -49,4 +50,37 @@ function parseSpokenNumbers(speechText) {
     return currentNumber || null; // Return null if no number found
 }
 
-export { parseSpokenNumbers };
+/**
+ * Converts spoken fractional phrases into a fraction object.
+ * Example: "half" becomes { numerator: 1, denominator: 2 }
+ * @param {string} speechText - The spoken text to be converted.
+ * @return {Object} - An object containing the numerator and denominator.
+ */
+function speechToFraction(speechText) {
+    // Your logic to parse the spoken text and convert to fraction
+    // This is a placeholder, you will need to implement the parsing logic based on your app's specific needs
+    const fractionMapping = {
+        'half': [1, 2],
+        'two thirds': [2, 3],
+        'third': [1, 3],
+        'quarter': [1, 4],
+        'fifth': [1, 5],
+        'sixth': [1, 6],
+        'eighth': [1, 8],
+        'tenth': [1, 10]
+
+        // Add other mappings as necessary...
+    };
+
+    const words = speechText.split(' ');
+    for (let word of words) {
+        if (fractionMapping[word]) {
+            return { numerator: fractionMapping[word][0], denominator: fractionMapping[word][1] };
+        }
+    }
+
+    return { numerator: 0, denominator: 1 }; // Default to no fraction if none found
+}
+
+// Make sure to export this new function
+export { parseSpokenNumbers, speechToFraction };

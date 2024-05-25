@@ -13,6 +13,8 @@ const VoiceRecognitionService = {
         this.recognition = new SpeechRecognition();
         this.recognition.continuous = true;
         this.recognition.interimResults = true;
+        this.recognition.lang = 'en-US'; // Set language to English (United States)
+
 
         this.recognition.onresult = (event) => {
             const lastResult = event.results[event.results.length - 1];

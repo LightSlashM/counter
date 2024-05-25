@@ -1,6 +1,8 @@
 ﻿/* Filename: Counter.css */
 .counter {
     /* Styling for the counter container */
+    font-size: 4em; /* One-third the size of the main counter */
+    color: #528589; /* Same color as the main counter */
 }
 
 .counter-display {

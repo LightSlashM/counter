@@ -36,3 +36,57 @@ body, html, #root {
         width: 90%;
     }
 }
+
+.log-textbox {
+    width: 100%;
+    height: 100px; /* or any other preferred size */
+    margin-top: 20px;
+    background: #f4f4f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.control-button {
+    background-color: slategrey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 20px
+
+}
+.counter-container {
+    display: flex;
+    justify-content: center; /* Centers the counter-wrapper horizontally */
+    position: relative; /* Needed for absolute positioning of children */
+}
+
+.counter-wrapper {
+    flex-shrink: 0; /* Prevent the counter from shrinking */
+    /* Set a fixed width as needed, or leave it to content */
+}
+
+.part-control-button {
+    background-color: lightgray;
+    border: none;
+    color: dimgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-top: 20px
+}
+
+.speech-textbox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; /* This ensures padding does not affect the width */
+    text-align: center; /* Center the text horizontally */
+}

@@ -1,13 +1,27 @@
 ﻿/* Filename: MicrophoneButton.css */
 .microphone-button {
     /* Base styling for the microphone button */
-    background-color: darkred;
+    background-color: green;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 20px
 }
 
     .microphone-button.listening {
         /* When the microphone is active/listening */
-        background-color: green;
+        background-color: darkred;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+        margin-top: 20px
     }
 
 /* Additional CSS styling for button states like :hover and :active */
