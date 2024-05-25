@@ -1,0 +1,20 @@
+﻿/* Filename: CounterFraction.css */
+.counter-fraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -50px; /* Adjust based on actual layout and spacing */
+}
+
+.fraction-numerator, .fraction-denominator {
+    font-size: 0.33em; /* One-third the size of the main counter */
+    color: #528589; /* Same color as the main counter */
+}
+
+.fraction-denominator {
+    border-top: 1px solid #528589; /* Divider for the fraction */
+    padding-top: 2px;
+}body {
+}

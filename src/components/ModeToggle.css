@@ -1,0 +1,12 @@
+﻿/* Filename: ModeToggle.css */
+.mode-toggle {
+    display: flex;
+    align-items: center;
+    /* Additional styling */
+}
+
+.toggle-label {
+    /* Styling for the label that looks like a switch */
+}
+
+/* Additional CSS for the switch */
